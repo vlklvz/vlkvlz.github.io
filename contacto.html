@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="css/estiloPrincipal.css">
+</head>
+<body class="contenedor">
+    <nav class="navbar">
+    <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="img/Iconos/btn-menu.png" alt=""></label>
+         
+            <div class="menu">
+                    <ul>
+                        <li><a href="Index.html">INICIO</a></li>
+                        <li><a href="#">HISTORIA</a></li>
+                        <li><a href="Galeria.html">GALERIA</a></li>
+                        <li><a href="#">APLICACIONES</a>
+                            <ul class="submenu">
+                                <li><a href="calculadora.html">CALCULADORA</a></li>
+                                <li><a href="ordenar.html">ORDENA NUMEROS</a></li>
+                                <li><a href="#">CONDICIONALES</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+    </nav>
+
+    <section class="main">
+        <h2>CONTACTO</h2>
+            <br>
+            <hr>
+            <br>
+        <form action="">
+                <label for="txtIdentificacion">IDENTIFICACIÓN</label>
+                <br>
+                <input type="text" id="txtID" name="txtID" placeholder="Identificación...">
+                <br><br>
+                <label for="txtNombre">NOMBRE</label>
+                <br>
+                <input type="text" id="txtNombre" name="txtNombre" placeholder="Nombre...">
+                <br><br>
+                <label for="txtApellidos">APELLIDOS</label>
+                <br>
+                <input type="text" id="txtApellidos" name="txtApellidos" placeholder="Apellidos...">
+                <br><br>
+                <label for="txtTelefono">TELÉFONO</label>
+                <br>
+                <input type="text" id="txtTelefono" name="txtTelefono" placeholder="Teléfono...">
+                <br><br>
+                <label for="txtDireccion">DIRECCIÓN</label>
+                <br>
+                <textarea name="txtDireccion" id="txtDireccion" cols="30" rows="5" placeholder="Dirección exacta..."></textarea>
+                <br><br><hr><br>
+                <input type="button" value="ENVIAR" onclick="mensaje()"> &nbsp; &nbsp;
+                <input type="reset" value="LIMPIAR">
+
+        </form>
+
+    </section>
+</body>
+</html>

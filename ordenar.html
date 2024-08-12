@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDENAR</title>
+    <link rel="stylesheet" href="css/estiloPrincipal.css">
+</head>
+ <body class="contenedor">
+    <nav class="navbar">
+    <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="img/Iconos/btn-menu.png" alt=""></label>
+         
+            <div class="menu">
+                    <ul>
+                        <li><a href="Index.html">INICIO</a></li>
+                        <li><a href="#">HISTORIA</a></li>
+                        <li><a href="Galeria.html">GALERIA</a></li>
+                        <li><a href="#">APLICACIONES</a>
+                            <ul class="submenu">
+                                <li><a href="calculadora.html">CALCULADORA</a></li>
+                                <li><a href="ordenar.html">ORDENA NUMEROS</a></li>
+                                <li><a href="#">CONDICIONALES</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+    </nav>
+    
+    <section class="main">
+            <h2>ORDENAR NUMEROS</h2>
+
+            <p>Ingresa tres numeros al azar</p>
+        <form id="form" name="form">
+                Numero 1 <br>
+                <input type="text" id="txtUno" name="txtUno">
+                <br><br>
+                
+                Numero 2 <br>
+                <input type="text" id="txtDos" name="txtDos">
+                <br><br>
+                
+                Numero 3<br>
+                <input type="text" id="txtTres" name="txtTres">
+                <br><br>
+                
+                <input type="button" value="Ordenar" onclick="ordena()">
+                <br><br>
+                
+                <input type="text" id="txtMayor" name="txtMayor" placeholder="Mayor"><br>
+                <input type="text" id="txtMedio" name="txtMedio" placeholder="Medio"><br>
+                <input type="text" id="txtMenor" name="txtMenor" placeholder="Menor">
+        </form>
+    </section>
+
+
+
+
+    <aside class="sidebar">
+        <div class="face">
+            <iframe src="https://www.facebook.com/plugins/page.php?
+            href=https%3A%2F%2Fwww.facebook.com%2Fcolegiolaauroradeheredia&tabs=timeline&small_header=false&adapt_contain
+            er_width=true&hide_cover=false&show_facepile=true&appId" style="border:none ;overflow:hidden"
+            scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media">
+        </iframe>  
+        </div>   
+    </aside>
+
+    
+    <footer class="footer">
+        <p>Colegio</p>
+        <p>La Aurora</p>
+        <p>&copy; 2024</p>
+    </footer>  
+
+    <script src="js/ordenar.js"></script>
+     
+<br>
+
+</html>

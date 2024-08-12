@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+<link rel="stylesheet" href="css/estiloPrincipal.css">
+</head>
+<body>
+    <body class="contenedor">
+        <nav class="navbar">
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"> <img src="img/Iconos/btn-menu." alt=""></label>
+    
+                <div class="menu">
+                    <ul>
+                        <li><a href="Index.html">INICIO</a></li>
+                        <li><a href="#">HISTORIA</a></li>
+                        <li><a href="Galeria.html">GALERIA</a></li>
+                        <li><a href="#">APLICACIONES</a>
+                            <ul class="submenu">
+                                <li><a href="calculadora.html">CALCULADORA</a></li>
+                                <li><a href="ordenar.html">ORDENA NUMEROS</a></li>
+                                <li><a href="#">CONDICIONALES</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+                </div>
+        </nav>
+    </section>
+    <aside class="sidebar">
+        <div class="face">
+            <iframe src="https://www.facebook.com/plugins/page.php?
+            href=https%3A%2F%2Fwww.facebook.com%2Fcolegiolaauroradeheredia&tabs=timeline&small_header=false&adapt_contain
+            er_width=true&hide_cover=false&show_facepile=true&appId" style="border:none ;overflow:hidden"
+            scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media">
+        </iframe>  
+        </div>   
+    </aside>
+
+
+    <section class="main">
+        <div class="formulario">
+            <br>
+            <h1>CALCULADORA HTML - JS</h1>
+
+            <table>
+                <tr>
+                    <td colspan="4"><button id="result">0</button></td>
+                <tr>
+                    <td><button onclick="add('1')">1</button></td>
+                    <td><button onclick="add('2')">2</button></td>
+                    <td><button onclick="add('3')">3</button></td>
+                    <td><button onclick="add('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add('4')">4</button></td>
+                    <td><button onclick="add('5')">5</button></td>
+                    <td><button onclick="add('6')">6</button></td>
+                    <td><button onclick="add('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="add('7')">7</button></td>
+                    <td><button onclick="add('8')">8</button></td>
+                    <td><button onclick="add('9')">9</button></td>
+                    <td><button onclick="add('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button onclick="add('0')">0</button></td>
+                    <td colspan="3"><button onclick="add('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button onclick="del()" class="ac">AC</button></td>
+                    <td><button onclick="add('.')">.</button></td>
+                    <td><button onclick="calc()">=</button></td>
+                </tr>
+                
+            </table>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <p>Colegio</p>
+        <p>La Aurora</p>
+        <p>&copy; 2024</p>
+    </footer>  
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
